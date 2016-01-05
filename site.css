@@ -1,2 +1,39 @@
+html {
+ box-sizing: border:box;
+}
 
+* {
+ margin: 0 auto;
+}
 
+#row1 {
+ border: 1px solid green;
+ height: 100%;
+ width: 100%;
+}
+
+#row2 {
+ border: 1px solid red;
+ height: 100%;
+ width: 100%;
+}
+
+.circles {
+ border: 1px solid blue;
+ float: left;
+ height: 100px;
+ width: 100px;
+}
+
+.clearfix:before, .clearfix:after {
+ content: "";
+ display: table;
+} 
+
+.clearfix:after {
+ clear: both;
+}
+
+.clearfix {
+ zoom: 1; /* for IE6 and 7 */
+}
