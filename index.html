@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta charset="UTF-8">
 <title>Hover Option 1</title>
 <link rel="stylesheet" type="text/css" href="site.css">
@@ -8,7 +9,11 @@
 <body>
  <div id="wrapper">
   <div id="row1" class="rows clearfix">
-   <div id="circle1" class="circles"></div>
+   <div id="circle1" class="circles">
+    <img src="images/portrait1.jpeg" alt="Hover to reveal a different photo"
+    onmouseover="this.src='images/portrait2.jpeg';"
+    onmouseout="this.src='images/portrait1.jpeg';"/>
+  </div>
    <div id="circle2" class="circles"></div>
    <div id="circle3" class="circles"></div>
    <div id="circle4" class="circles"></div>
@@ -22,7 +27,7 @@
    <div id="circle10" class="circles"></div>
   </div>
  </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
 <script type="text/javascript" src="site.js"></script> 
 </body>
 </html>
