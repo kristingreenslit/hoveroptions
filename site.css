@@ -1,11 +1,20 @@
-* {
- box-sizing: border:box;
- margin: 0 auto;
-}
+#circle1 {background-image: url("images/picture1.jpeg");}
+#circle2 {background-image: url("images/picture2.jpeg");}
+#circle3 {background-image: url("images/picture3.jpeg");}
+#circle4 {background-image: url("images/picture4.jpeg");}
+#circle5 {background-image: url("images/picture5.jpeg");}
+#circle6 {background-image: url("images/picture6.jpeg");}
+#circle7 {background-image: url("images/picture7.jpeg");}
+#circle8 {background-image: url("images/picture8.jpeg");}
+#circle9 {background-image: url("images/picture9.jpeg");}
+#circle10 {background-image: url("images/picture10.jpeg");}
 
 .circles {
  border-radius: 100px;
- background-color: #DAE3EA;
+ background-repeat: no-repeat;
+ background-position: 50% 50%;
+ background-size: 100% 100%;
+ display: none;
  float: left;
  height: 100px;
  margin-left: 5px;
