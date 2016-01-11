@@ -1,12 +1,12 @@
-#circle1 {background-image: url("images/picture1.jpeg");}
-#circle2 {background-image: url("images/picture2.jpeg");}
-#circle3 {background-image: url("images/picture3.jpeg");}
-#circle4 {background-image: url("images/picture4.jpeg");}
-#circle5 {background-image: url("images/picture5.jpeg");}
-#circle6 {background-image: url("images/picture6.jpeg");}
-#circle7 {background-image: url("images/picture7.jpeg");}
-#circle8 {background-image: url("images/picture8.jpeg");}
-#circle9 {background-image: url("images/picture9.jpeg");}
+#circle1 {background-image: url("images/picture01.jpeg");}
+#circle2 {background-image: url("images/picture02.jpeg");}
+#circle3 {background-image: url("images/picture03.jpeg");}
+#circle4 {background-image: url("images/picture04.jpeg");}
+#circle5 {background-image: url("images/picture05.jpeg");}
+#circle6 {background-image: url("images/picture06.jpeg");}
+#circle7 {background-image: url("images/picture07.jpeg");}
+#circle8 {background-image: url("images/picture08.jpeg");}
+#circle9 {background-image: url("images/picture09.jpeg");}
 #circle10 {background-image: url("images/picture10.jpeg");}
 
 .circles {
@@ -14,11 +14,10 @@
  background-repeat: no-repeat;
  background-position: 50% 50%;
  background-size: 100% 100%;
- display: none;
+/* display: none;*/
  float: left;
  height: 100px;
- margin-left: 5px;
- margin-right: 5px;
+ margin: 0px 5px 0px 5px;
  width: 100px;
 }
 
