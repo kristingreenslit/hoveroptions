@@ -11,14 +11,13 @@
 
 .circles {
  border-radius: 100px;
- background-repeat: no-repeat;
  background-position: 50% 50%;
+ background-repeat: no-repeat;
  background-size: 100% 100%;
-/* display: none;*/
  float: left;
- height: 100px;
+ min-height: 10px;
  margin: 0px 5px 0px 5px;
- width: 100px;
+ min-width: 10px;
 }
 
 .clearfix:before, .clearfix:after {
@@ -39,3 +38,5 @@
  margin: 0 auto;
  margin-top: 25px;
  width: 550px;
+}
+
