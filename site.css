@@ -1,42 +1,40 @@
-#circle1 {background-image: url("images/picture01.jpeg");}
-#circle2 {background-image: url("images/picture02.jpeg");}
-#circle3 {background-image: url("images/picture03.jpeg");}
-#circle4 {background-image: url("images/picture04.jpeg");}
-#circle5 {background-image: url("images/picture05.jpeg");}
-#circle6 {background-image: url("images/picture06.jpeg");}
-#circle7 {background-image: url("images/picture07.jpeg");}
-#circle8 {background-image: url("images/picture08.jpeg");}
-#circle9 {background-image: url("images/picture09.jpeg");}
-#circle10 {background-image: url("images/picture10.jpeg");}
-
-.circles {
+img {
  border-radius: 100px;
- background-position: 50% 50%;
- background-repeat: no-repeat;
- background-size: 100% 100%;
- float: left;
- min-height: 10px;
- margin: 0px 5px 0px 5px;
- min-width: 10px;
+ height: 50px;
+ width: 50px;
 }
 
-.clearfix:before, .clearfix:after {
- content: "";
- display: table;
-} 
-
-.clearfix:after {
- clear: both;
+li {
+ display: none;
+ list-style: none;
 }
 
-.clearfix {
- zoom: 1; 
-}
-
-.rows {
- height: 100px;
+#row1, #row2 {
+ height: 100%;
  margin: 0 auto;
- margin-top: 25px;
- width: 550px;
+ position: absolute;
+ width: 100%;
 }
+
+#row1 {
+ z-index: 1;
+}
+
+#row1 li {
+ display: inline;
+}
+
+#row2 {
+ z-index: 2;
+}
+
+#row2 li {
+ display: inline-block;
+}
+
+#wrapper {
+ margin: 0 auto;
+ text-align: center;
+}
+
 
